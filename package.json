@@ -5,7 +5,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "ebube",
   "license": "ISC",
-  "description": ""
+  "description": "Package file for the tailwind configuration",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebube92/blog-preview-card.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ebube92/blog-preview-card/issues"
+  },
+  "homepage": "https://github.com/ebube92/blog-preview-card#readme"
 }
