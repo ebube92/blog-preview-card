@@ -171,6 +171,12 @@
   .my-\[15px\] {
     margin-block: 15px;
   }
+  .mb-\[10px\] {
+    margin-bottom: 10px;
+  }
+  .mb-\[20px\] {
+    margin-bottom: 20px;
+  }
   .flex {
     display: flex;
   }
@@ -185,6 +191,12 @@
   }
   .h-screen {
     height: 100vh;
+  }
+  .w-\[300px\] {
+    width: 300px;
+  }
+  .w-\[320px\] {
+    width: 320px;
   }
   .w-\[350px\] {
     width: 350px;
@@ -221,6 +233,12 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .gap-\[10px\] {
+    gap: 10px;
+  }
+  .gap-\[15px\] {
+    gap: 15px;
   }
   .rounded {
     border-radius: 0.25rem;
@@ -313,15 +331,34 @@
   .font-\[\'Figtree\'\] {
     font-family: 'Figtree';
   }
+  .text-\[1\.5rem\] {
+    font-size: 1.5rem;
+  }
   .text-\[1rem\] {
     font-size: 1rem;
+  }
+  .text-\[2rem\] {
+    font-size: 2rem;
   }
   .text-\[5rem\] {
     font-size: 5rem;
   }
+  .font-\[500\] {
+    --tw-font-weight: 500;
+    font-weight: 500;
+  }
   .font-extrabold {
     --tw-font-weight: var(--font-weight-extrabold);
     font-weight: var(--font-weight-extrabold);
+  }
+  .text-\[hsl\(0\,0\%\,\%\)\] {
+    color: hsl(0,0%,%);
+  }
+  .text-\[hsl\(0\,0\%\,7\%\)\] {
+    color: hsl(0,0%,7%);
+  }
+  .text-\[hsl\(0\,0\%\,42\%\)\] {
+    color: hsl(0,0%,42%);
   }
   .underline {
     text-decoration-line: underline;
@@ -361,6 +398,23 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .hover\:text-\[hsl\(47\,88\%\,63\%\)\] {
+    &:hover {
+      @media (hover: hover) {
+        color: hsl(47,88%,63%);
+      }
+    }
+  }
+  .sm\:w-\[400\] {
+    @media (width >= 40rem) {
+      width: 400;
+    }
+  }
+  .sm\:w-\[400px\] {
+    @media (width >= 40rem) {
+      width: 400px;
+    }
   }
 }
 @property --tw-rotate-x {
